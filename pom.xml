@@ -7,7 +7,7 @@
   <name>Gestao Empresarial</name>
   <url>http://maven.apache.org</url>
 
-    <repositories>
+     <repositories>
         <repository>
             <id>prime-repo</id>
             <name>Prime Repo</name>
@@ -19,7 +19,7 @@
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
+            <version>6.0</version>
             <scope>provided</scope>
         </dependency>
 
