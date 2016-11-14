@@ -1,4 +1,4 @@
-package com.template.javaee06.bean;
+package com.gestaoempresarial.bean;
 
 import java.io.Serializable;
 import java.util.List;
@@ -7,9 +7,9 @@ import javax.enterprise.context.SessionScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import com.template.javaee06.model.Template;
-import com.template.javaee06.service.TemplateService;
-import com.template.javaee06.util.FacesUtil;
+import com.gestaoempresarial.model.Template;
+import com.gestaoempresarial.service.TemplateService;
+import com.gestaoempresarial.util.FacesUtil;
 
 
 @Named("templateMB")

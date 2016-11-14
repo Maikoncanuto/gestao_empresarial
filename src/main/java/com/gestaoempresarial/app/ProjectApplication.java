@@ -1,4 +1,4 @@
-package com.template.javaee06.application;
+package com.gestaoempresarial.app;
 
 
 import javax.ws.rs.ApplicationPath;

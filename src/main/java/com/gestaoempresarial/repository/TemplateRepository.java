@@ -1,11 +1,11 @@
-package com.template.javaee06.repository;
+package com.gestaoempresarial.repository;
 
 import java.util.List;
 
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 
-import com.template.javaee06.model.Template;
+import com.gestaoempresarial.model.Template;
 
 public class TemplateRepository {
 

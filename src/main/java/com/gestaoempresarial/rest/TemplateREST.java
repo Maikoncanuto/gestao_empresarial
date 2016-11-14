@@ -1,4 +1,4 @@
-package com.template.javaee06.rest;
+package com.gestaoempresarial.rest;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.template.javaee06.model.Template;
-import com.template.javaee06.service.TemplateService;
+import com.gestaoempresarial.model.Template;
+import com.gestaoempresarial.service.TemplateService;
 
 @Path("/template")
 @RequestScoped

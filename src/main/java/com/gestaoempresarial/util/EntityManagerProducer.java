@@ -1,4 +1,4 @@
-package com.template.javaee06.util;
+package com.gestaoempresarial.util;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
@@ -11,7 +11,7 @@ import javax.persistence.PersistenceUnit;
 @ApplicationScoped
 public class EntityManagerProducer {
 
-	@PersistenceUnit(unitName="myDS")
+	@PersistenceUnit(unitName="gestaoempresarialDS")
 	private EntityManagerFactory factory;
 
 	@Produces @RequestScoped

@@ -1,4 +1,4 @@
-package com.template.javaee06.service;
+package com.gestaoempresarial.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
 
-import com.template.javaee06.model.Template;
-import com.template.javaee06.repository.TemplateRepository;
+import com.gestaoempresarial.model.Template;
+import com.gestaoempresarial.repository.TemplateRepository;
 
 @Stateless
 public class TemplateService {

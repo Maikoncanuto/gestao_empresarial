@@ -4,7 +4,7 @@
   <artifactId>TEMPLATE_JAVAEE6</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>TEMPLATE JAVA EE 6 Webapp</name>
+  <name>Gestao Empresarial</name>
   <url>http://maven.apache.org</url>
 
     <repositories>
@@ -19,7 +19,7 @@
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
-            <version>6.0</version>
+            <version>7.0</version>
             <scope>provided</scope>
         </dependency>
 

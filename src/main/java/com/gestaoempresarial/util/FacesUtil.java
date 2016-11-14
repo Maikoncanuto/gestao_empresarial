@@ -1,4 +1,4 @@
-package com.template.javaee06.util;
+package com.gestaoempresarial.util;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
