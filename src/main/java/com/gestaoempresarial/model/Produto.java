@@ -50,7 +50,7 @@ public class Produto implements java.io.Serializable {
 			@JoinColumn(name = "tbl_produto_produto_id", nullable = false, updatable = false) }, inverseJoinColumns = {
 			@JoinColumn(name = "tbl_ordemservico_ordemservico_id", nullable = false, updatable = false) 
 	})
-	private Set<Ordemservico> ordemServicos = new HashSet<Ordemservico>(0);
+	private Set<OrdemServico> ordemServicos = new HashSet<OrdemServico>(0);
 	
 	@ManyToMany(fetch = FetchType.LAZY)
 	@JoinTable(name = "tbl_produto_venda", catalog = "gestao_empresarial", joinColumns = {
@@ -115,11 +115,11 @@ public class Produto implements java.io.Serializable {
 		this.produtoCodigo = produtoCodigo;
 	}
 
-	public Set<Ordemservico> getOrdemServicos() {
+	public Set<OrdemServico> getOrdemServicos() {
 		return ordemServicos;
 	}
 
-	public void setOrdemServicos(Set<Ordemservico> ordemServicos) {
+	public void setOrdemServicos(Set<OrdemServico> ordemServicos) {
 		this.ordemServicos = ordemServicos;
 	}
 

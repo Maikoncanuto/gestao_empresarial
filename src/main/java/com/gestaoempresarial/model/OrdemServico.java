@@ -21,7 +21,7 @@ import javax.persistence.TemporalType;
 
 @Entity
 @Table(name = "tbl_ordemservico", catalog = "gestao_empresarial")
-public class Ordemservico implements java.io.Serializable {
+public class OrdemServico implements java.io.Serializable {
 
 	private static final long serialVersionUID = 1L;
 	

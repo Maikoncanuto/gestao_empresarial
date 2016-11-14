@@ -56,7 +56,7 @@ public class Cliente implements java.io.Serializable {
 			@JoinColumn(name = "tbl_cliente_cliente_id", nullable = false, updatable = false) }, inverseJoinColumns = {
 			@JoinColumn(name = "tbl_ordemservico_ordemservico_id", nullable = false, updatable = false) 
 	})
-	private Collection<Ordemservico> ordemServicos = new HashSet<Ordemservico>(0);
+	private Collection<OrdemServico> ordemServicos = new HashSet<OrdemServico>(0);
 
 	public Long getClienteId() {
 		return clienteId;
@@ -130,11 +130,11 @@ public class Cliente implements java.io.Serializable {
 		this.clienteDescricao = clienteDescricao;
 	}
 
-	public Collection<Ordemservico> getOrdemServicos() {
+	public Collection<OrdemServico> getOrdemServicos() {
 		return ordemServicos;
 	}
 
-	public void setTblOrdemservicos(Collection<Ordemservico> ordemServicos) {
+	public void setTblOrdemservicos(Collection<OrdemServico> ordemServicos) {
 		this.ordemServicos = ordemServicos;
 	}
 
