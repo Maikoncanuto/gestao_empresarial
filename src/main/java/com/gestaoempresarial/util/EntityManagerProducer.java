@@ -11,7 +11,7 @@ import javax.persistence.PersistenceUnit;
 @ApplicationScoped
 public class EntityManagerProducer {
 
-	@PersistenceUnit(unitName="gestaoempresarialDS")
+	@PersistenceUnit(unitName="gestaoDS")
 	private EntityManagerFactory factory;
 
 	@Produces @RequestScoped
